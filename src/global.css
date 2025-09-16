@@ -1,0 +1,82 @@
+/* Global brutalist design system */
+
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: white;
+  color: black;
+  min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+/* Common elements */
+button {
+  background: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-family: monospace;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+h2,
+h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Utility classes */
+.container {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.mono {
+  font-family: monospace;
+}
+
+.error {
+  color: red;
+}
